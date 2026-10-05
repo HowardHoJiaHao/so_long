@@ -20,12 +20,7 @@ void	*ft_calloc(size_t n, size_t size)
 	size_t			i;
 
 	if (n == 0 || size == 0)
-	{
-		ptr = malloc(0);
-		if (!ptr)
-			return (NULL);
-		return ((void *)ptr);
-	}
+		return (malloc(0));
 	i = n * size;
 	if (n > (size_t) -1 / size)
 		return (NULL);

@@ -7,7 +7,7 @@ SRC = srcs/main.c srcs/mlx.c srcs/error_handling.c \
 	  
 CC = cc
 
-CC_FLAGS = -Wall -Wextra -Werror -g3
+CC_FLAGS = -Wall -Wextra -Werror -g3 -std=gnu17
 
 INCLUDES = -Ilibft -Iincludes -Imlx
 

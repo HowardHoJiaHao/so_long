@@ -12,6 +12,8 @@ A small top-down 2D game built with the **MiniLibX** graphics library. The playe
 
 ## Usage (Linux)
 ```bash
+sudo apt install libx11-dev libxext-dev zlib1g-dev   # MiniLibX dependencies
 make
-./so_long map/<map_name>.ber
+./so_long map/map1.ber
 ```
+More playable maps are in `map/maps_valid/`, and `map/maps_err/` holds invalid maps used to test the error handling.
